@@ -30,6 +30,8 @@ classname | null | When defaultCss is false, passing the classname is mandatory,
 
     Eg: headerScroll.setScrollableHeader('.header', {topOffset: 100, animationDelay: 0.5});
     
+### NPM
+Find it on NPM [here](https://www.npmjs.com/package/header-scroll-up)
     
 #### License
 MIT © [vijaysutrave](https://github.com/vijaysutrave)
