@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "Hide the header while scrolling down, bring it back on scroll up!",
   "keywords": "header, scroll, hide, show, up, down",
-  "main": "src/index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "babel src -d lib"
@@ -20,5 +20,8 @@
     "presets": [
       "es2015"
     ]
+  },
+  "dependencies": {
+    "object-assign": "^4.1.0"
   }
 }

@@ -1,3 +1,7 @@
+'use strict';
+
+const objectAssign = require('object-assign');
+
 /* Default options */
 const options = {
     defaultCss: true,
@@ -42,10 +46,10 @@ let setScrollableHeader = (header, userOptions) => {
     }
 
     /* Extend the options */
-    Object.assign(options, userOptions);
+    objectAssign(options, userOptions);
 
     if (options.defaultCss) {
-        Object.assign(header.style, commonStyles);
+        objectAssign(header.style, commonStyles);
     }
 
     const headerHeight = header.clientHeight;
@@ -59,9 +63,9 @@ let setScrollableHeader = (header, userOptions) => {
     const callbackMapper = {
         'true': function(direction) {
             if (direction === 'down') {
-                Object.assign(header.style, styleObject);
+                objectAssign(header.style, styleObject);
             } else {
-                Object.assign(header.style, unStyleObject);
+                objectAssign(header.style, unStyleObject);
             }
         },
         'false': function(direction) {
