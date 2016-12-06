@@ -1,6 +1,6 @@
 {
   "name": "header-scroll-up",
-  "version": "0.0.1",
+  "version": "0.1.1",
   "description": "Hide the header while scrolling down, bring it back on scroll up!",
   "keywords": "header, scroll, hide, show, up, down",
   "main": "lib/index.js",
